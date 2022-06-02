@@ -1,8 +1,6 @@
 package org.example;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
 
 public class SearchTest {
     @Given("Enter search term {string}")
@@ -19,4 +17,5 @@ public class SearchTest {
     public void singleResultIsShownForCucumber(String name) {
         System.out.println("test 3");
     }
+
 }
